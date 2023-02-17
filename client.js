@@ -12,7 +12,7 @@ function submitForm(event) {
     let nameLastVal = document.querySelector('#nameLast-input').value;
     let idVal = document.querySelector('#id-input').value
     let titleVal = document.querySelector('#jobTitle-input').value;
-    let salaryVal= document.querySelector('#salary-input').Number(String); //testing number(String)
+    let salaryVal= document.querySelector('#salary-input').value; 
     let infoTable = document.querySelector('#infoData');
     infoTable.innerHTML += `
         <tr>
@@ -25,8 +25,6 @@ function submitForm(event) {
             <td button onClick="removeRow(event)"> Click to delete </td>
             </tr>
     `;
-   
-
 
 }//end
 
