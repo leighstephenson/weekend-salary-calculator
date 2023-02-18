@@ -16,29 +16,37 @@ job title, annual salary_.
 
 <body>
     <header>
-        <h1>HTML Forms & Tables</h1>
+        <h1>Weekend Salary Calculator</h1>
     </header>
     <div id="content">
         <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date -->
-        <form class="" onSubmit="submitForm(event)">
+        <form class="userInput" onSubmit="submitForm(event)">
             First Name: <input id="nameFirst-input" type="text" /><br />
             Last Name: <input id="nameLast-input" type="text" /><br />
             ID Number: <input id="id-input" type="number" /> <br/>
             Job Title: <input id="jobTitle-input" type="text" /><br />
             Salary: <input id="salary-input" type="number" /> <br/>
-
+            <br>
             <button on click= "submitForm()"> Submit </button>
         </form>
-        <table id="customers">
+        <table id="employeeInfo">
             <thead>
                 <tr>
-                    <th>Headers here</th>
+                    <th>Employee Data</th>
                     
                 </tr>
             </thead>
+            <br>
+            <br>
             <tbody id="infoData">
                 <tr>
-                    <td>Placeholder data</td>
+                    <td>First name</td>
+                    <td>last name</td>
+                    <td>ID number</td>
+                    <td>Job title</td>
+                    <td>Salary</td>
+
+                    
                     <td button onClick="removeRow(event)"> Click to delete </td>
                 </tr>
                 <tr>
@@ -47,7 +55,10 @@ job title, annual salary_.
                 </tr>
             </tbody>
         </table>
-        
+    </div>
+
+    <div id="monthlyCost">
+        <h2> Total Monthly Cost: <span id="total-monthly"> </span> </h2>
     </div>
     
     <script src="client.js"></script>
