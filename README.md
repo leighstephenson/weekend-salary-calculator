@@ -1,9 +1,23 @@
 # Project Name
-
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+Weekend Salary Calculator
 
 ## Description
+Duration: A weekend
 
-Your project description goes here. What problem did you solve? How did you solve it?
+Created a form that collects employee data (first and last name, ID number, title, salary) then stored that data in a table. Using that information, utilized javascript to calculate the monthly costs of each employee's salary and checked to see if those costs stayed under budget or not. 
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+Prerequisites:
+None 
+
+Usage:
+Use this to calculate monthly costs of employee salaries to determine if a business is running above or below their budget. 
+
+Built With:
+Javascript, HTML, CSS
+
+Acknowledgement:
+Thanks to Prime Digital Academy who equipped and helped me to make this application a reality.
+
+Support
+If you have suggestions or issues, please email me at leighh.stephenson@gmail.com
+
