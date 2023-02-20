@@ -1,12 +1,18 @@
 table, td {
-    border: 1px solid;
+  border: 1px solid black;
   }
 
 input {
-    border: 2px solid green;
-margin: 5px;    border-radius: 4px;
+   border: 1px solid green;
+   margin: 5px; 
+   border-radius: 4px;
   }
 
  #overBudget {
   background-color: red;
+ }
+
+ #monthlyCost {
+  border: 1px solid black;
+  margin: 5px;   
  }
