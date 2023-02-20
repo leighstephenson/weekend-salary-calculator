@@ -1,14 +1,12 @@
 table, td {
     border: 1px solid;
   }
-  
-th{
-   
-}
 
 input {
     border: 2px solid green;
 margin: 5px;    border-radius: 4px;
   }
 
- 
+ #overBudget {
+  background-color: red;
+ }
