@@ -1,11 +1,15 @@
 table, td {
   border: 1px solid black;
+  font-family:'Times New Roman', Times, serif;
+  padding: 2px;
   }
 
 input {
    border: 1px solid green;
    margin: 5px; 
    border-radius: 4px;
+   font-family:'Times New Roman', Times, serif;
+
   }
 
  #overBudget {
@@ -15,4 +19,10 @@ input {
  #monthlyCost {
   border: 1px solid black;
   margin: 5px;   
+  font-weight: bold;
+ }
+
+ header {
+  text-align: center;
+  background-color: lightgreen;
  }
